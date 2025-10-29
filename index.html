@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biruk Mitiku - Web Developer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="header">
+  <div class="logo">
+      <a href="#home"> <img src="profile.jpg" alt="Biruk Mitiku" class="profile-img" /> </a>
+  </div>
+  <nav>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#languages">Languages</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home" class="home">
+  <div class="home-content">
+    <div class="home-image">
+      <img src="frofile2.jpg" alt="Biruk Mitiku">
+    </div>
+    <div class="home-text">
+      <h2>Hi, I'm <span>Biruk Mitiku</span></h2>
+      <h4>I'm a Web Developer</h4>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="about-container">
+    <div class="about-image-container">
+      <img src="profile1.png" alt="Biruk Mitiku" class="about-image" />
+    </div>
+    <div class="about-text">
+      <h2 id="abme">About Me</h2>
+      <div class="text-container">
+        <h3>Hi, I'm Biruk Mitiku</h3>
+My name is <strong>biruk mitiku</strong>, and I am currently a third-year Computer Science student at 
+the University of <strong>Gondar</strong>, where I have been studying since 2015. I am passionate about
+ technology and software development, with a strong interest in building innovative and efficient
+  solutions. My ultimate goal is to become a skilled Full Stack Developer, capable of designing and 
+  developing complete web applications that provide real-world impact.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="languages" class="languages">
+  <h2>Languages I Know</h2>
+  <div class="languages-container">
+    <div class="language-card"><h3>C++</h3><p>High-performance applications.</p></div>
+    <div class="language-card"><h3>Java</h3><p>Backend & Android development.</p></div>
+    <div class="language-card"><h3>MySQL</h3><p>Relational database management.</p></div>
+    <div class="language-card"><h3>HTML</h3><p>Web structure markup language.</p></div>
+    <div class="language-card"><h3>CSS</h3><p>Website styling and layouts.</p></div><br>
+    <div class="language-card"><h3>JavaScript</h3><p>Dynamic web functionality.</p></div>
+  </div>
+</section>
+
+<section id="certificates" class="certificates">
+  <h2>My Certificates</h2>
+  <div class="certificates-container">
+    <div class="certificate-card">
+      <img src="pro.jpg" alt="Programming Fundamentals" class="cert-img">
+      <h3>Programming Fundamentals</h3>
+    </div>
+    <div class="certificate-card">
+      <img src="and.jpg" alt="Android Development Fundamentals" class="cert-img">
+      <h3>Android Development Fundamentals</h3>
+    </div>
+    <div class="certificate-card">
+      <img src="data.jpg" alt="Data Analysis Fundamentals" class="cert-img">
+      <h3>Data Analysis Fundamentals</h3>
+    </div>
+    <div class="certificate-card">
+      <img src="art.jpg" alt="Artificial Intelligence Fundamentals" class="cert-img">
+      <h3>Artificial Intelligence Fundamentals</h3>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-info">
+    <p>Email: <a href="mailto:birukmitiku282@gmail.com">birukmitiku282@gmail.com</a></p>
+    <p>Phone: <a href="tel:+251933598531">+251 933 598 531</a></p>
+  </div>
+  <form class="contact-form" action="#" method="post">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn-submit">Send Message</button>
+  </form>
+</section>
+
+<footer class="footer">
+  <h3>Connect with Me</h3>
+  <ul class="social-links">
+    <li><a href="https://facebook.com/profile.php?id=100094714287660" target="_blank"><img src="fc.jpg" alt="Facebook"></a></li>
+    <li><a href="https://tiktok.com/@yourusername" target="_blank"><img src="tiktok.jpg" alt="TikTok"></a></li>
+    <li><a href="https://linkedin.com/in/yourprofile" target="_blank"><img src="link.jpg" alt="LinkedIn"></a></li>
+    <li><a href="https://github.com/birukmitiku282-star" target="_blank"><img src="git.jpg" alt="GitHub"></a></li>
+    <li><a href="https://instagram.com/biruk_4991" target="_blank"><img src="insta.jpg" alt="Instagram"></a></li>
+  </ul>
+  <p>&copy; 2025 Biruk Mitiku. All rights reserved.</p>
+</footer>
+
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
+  <div id="caption"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
